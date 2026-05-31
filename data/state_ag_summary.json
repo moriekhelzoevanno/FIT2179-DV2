@@ -1,0 +1,50 @@
+[
+  {
+    "state":"Australian Capital Territory",
+    "total_gross_value_m":13.75,
+    "top_commodity":"Sheep & lambs",
+    "top_commodity_value_m":3.89
+  },
+  {
+    "state":"New South Wales",
+    "total_gross_value_m":19583.2,
+    "top_commodity":"Wheat",
+    "top_commodity_value_m":3888.16
+  },
+  {
+    "state":"Northern Territory",
+    "total_gross_value_m":527.45,
+    "top_commodity":"Cattle & calves",
+    "top_commodity_value_m":455.77
+  },
+  {
+    "state":"Queensland",
+    "total_gross_value_m":13554.38,
+    "top_commodity":"Cattle & calves",
+    "top_commodity_value_m":6825.59
+  },
+  {
+    "state":"South Australia",
+    "total_gross_value_m":6202.91,
+    "top_commodity":"Wheat",
+    "top_commodity_value_m":1709.76
+  },
+  {
+    "state":"Tasmania",
+    "total_gross_value_m":1493.69,
+    "top_commodity":"Milk",
+    "top_commodity_value_m":505.77
+  },
+  {
+    "state":"Victoria",
+    "total_gross_value_m":15855.08,
+    "top_commodity":"Milk",
+    "top_commodity_value_m":3018.89
+  },
+  {
+    "state":"Western Australia",
+    "total_gross_value_m":13377.58,
+    "top_commodity":"Wheat",
+    "top_commodity_value_m":5105.63
+  }
+]

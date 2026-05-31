@@ -1,0 +1,782 @@
+[
+  {
+    "state":"New South Wales",
+    "year":"2000\u201301",
+    "value":7867.3
+  },
+  {
+    "state":"New South Wales",
+    "year":"2001\u201302",
+    "value":8042.8
+  },
+  {
+    "state":"New South Wales",
+    "year":"2002\u201303",
+    "value":2494.9
+  },
+  {
+    "state":"New South Wales",
+    "year":"2003\u201304",
+    "value":7288.2
+  },
+  {
+    "state":"New South Wales",
+    "year":"2004\u201305",
+    "value":7537.4
+  },
+  {
+    "state":"New South Wales",
+    "year":"2005\u201306",
+    "value":8049.0
+  },
+  {
+    "state":"New South Wales",
+    "year":"2006\u201307",
+    "value":2567.7
+  },
+  {
+    "state":"New South Wales",
+    "year":"2007\u201308",
+    "value":2477.1
+  },
+  {
+    "state":"New South Wales",
+    "year":"2008\u201309",
+    "value":6963.3
+  },
+  {
+    "state":"New South Wales",
+    "year":"2009\u201310",
+    "value":5349.8
+  },
+  {
+    "state":"New South Wales",
+    "year":"2010\u201311",
+    "value":10488.4
+  },
+  {
+    "state":"New South Wales",
+    "year":"2011\u201312",
+    "value":8472.914
+  },
+  {
+    "state":"New South Wales",
+    "year":"2012\u201313",
+    "value":7364.882
+  },
+  {
+    "state":"New South Wales",
+    "year":"2013\u201314",
+    "value":6595.626
+  },
+  {
+    "state":"New South Wales",
+    "year":"2014\u201315",
+    "value":6653.67
+  },
+  {
+    "state":"New South Wales",
+    "year":"2015\u201316",
+    "value":6897.527
+  },
+  {
+    "state":"New South Wales",
+    "year":"2016\u201317",
+    "value":9819.12
+  },
+  {
+    "state":"New South Wales",
+    "year":"2017\u201318",
+    "value":4702.842
+  },
+  {
+    "state":"New South Wales",
+    "year":"2018\u201319",
+    "value":1850.335
+  },
+  {
+    "state":"New South Wales",
+    "year":"2019\u201320",
+    "value":1772.365
+  },
+  {
+    "state":"New South Wales",
+    "year":"2020\u201321",
+    "value":12972.151
+  },
+  {
+    "state":"New South Wales",
+    "year":"2021\u201322",
+    "value":12029.415
+  },
+  {
+    "state":"New South Wales",
+    "year":"2022\u201323",
+    "value":10620.0
+  },
+  {
+    "state":"New South Wales",
+    "year":"2023\u201324",
+    "value":7095.0
+  },
+  {
+    "state":"New South Wales",
+    "year":"2024\u201325",
+    "value":12900.0
+  },
+  {
+    "state":"New South Wales",
+    "year":"2025\u201326",
+    "value":11200.0
+  },
+  {
+    "state":"Queensland",
+    "year":"2000\u201301",
+    "value":1157.0
+  },
+  {
+    "state":"Queensland",
+    "year":"2001\u201302",
+    "value":901.4
+  },
+  {
+    "state":"Queensland",
+    "year":"2002\u201303",
+    "value":600.9
+  },
+  {
+    "state":"Queensland",
+    "year":"2003\u201304",
+    "value":1109.7
+  },
+  {
+    "state":"Queensland",
+    "year":"2004\u201305",
+    "value":1170.4
+  },
+  {
+    "state":"Queensland",
+    "year":"2005\u201306",
+    "value":1217.6
+  },
+  {
+    "state":"Queensland",
+    "year":"2006\u201307",
+    "value":776.7
+  },
+  {
+    "state":"Queensland",
+    "year":"2007\u201308",
+    "value":953.9
+  },
+  {
+    "state":"Queensland",
+    "year":"2008\u201309",
+    "value":2016.0
+  },
+  {
+    "state":"Queensland",
+    "year":"2009\u201310",
+    "value":1346.3
+  },
+  {
+    "state":"Queensland",
+    "year":"2010\u201311",
+    "value":1523.6
+  },
+  {
+    "state":"Queensland",
+    "year":"2011\u201312",
+    "value":1886.303
+  },
+  {
+    "state":"Queensland",
+    "year":"2012\u201313",
+    "value":1613.964
+  },
+  {
+    "state":"Queensland",
+    "year":"2013\u201314",
+    "value":1036.45
+  },
+  {
+    "state":"Queensland",
+    "year":"2014\u201315",
+    "value":986.855
+  },
+  {
+    "state":"Queensland",
+    "year":"2015\u201316",
+    "value":1315.912
+  },
+  {
+    "state":"Queensland",
+    "year":"2016\u201317",
+    "value":1501.6
+  },
+  {
+    "state":"Queensland",
+    "year":"2017\u201318",
+    "value":765.413
+  },
+  {
+    "state":"Queensland",
+    "year":"2018\u201319",
+    "value":419.675
+  },
+  {
+    "state":"Queensland",
+    "year":"2019\u201320",
+    "value":418.475
+  },
+  {
+    "state":"Queensland",
+    "year":"2020\u201321",
+    "value":1594.192
+  },
+  {
+    "state":"Queensland",
+    "year":"2021\u201322",
+    "value":2222.389
+  },
+  {
+    "state":"Queensland",
+    "year":"2022\u201323",
+    "value":2600.0
+  },
+  {
+    "state":"Queensland",
+    "year":"2023\u201324",
+    "value":1080.0
+  },
+  {
+    "state":"Queensland",
+    "year":"2024\u201325",
+    "value":2230.0
+  },
+  {
+    "state":"Queensland",
+    "year":"2025\u201326",
+    "value":2310.0
+  },
+  {
+    "state":"South Australia",
+    "year":"2000\u201301",
+    "value":4162.4
+  },
+  {
+    "state":"South Australia",
+    "year":"2001\u201302",
+    "value":4778.5
+  },
+  {
+    "state":"South Australia",
+    "year":"2002\u201303",
+    "value":2071.8
+  },
+  {
+    "state":"South Australia",
+    "year":"2003\u201304",
+    "value":3490.4
+  },
+  {
+    "state":"South Australia",
+    "year":"2004\u201305",
+    "value":2620.8
+  },
+  {
+    "state":"South Australia",
+    "year":"2005\u201306",
+    "value":3852.8
+  },
+  {
+    "state":"South Australia",
+    "year":"2006\u201307",
+    "value":1446.0
+  },
+  {
+    "state":"South Australia",
+    "year":"2007\u201308",
+    "value":2296.0
+  },
+  {
+    "state":"South Australia",
+    "year":"2008\u201309",
+    "value":2376.1
+  },
+  {
+    "state":"South Australia",
+    "year":"2009\u201310",
+    "value":4001.3
+  },
+  {
+    "state":"South Australia",
+    "year":"2010\u201311",
+    "value":5948.7
+  },
+  {
+    "state":"South Australia",
+    "year":"2011\u201312",
+    "value":4524.803
+  },
+  {
+    "state":"South Australia",
+    "year":"2012\u201313",
+    "value":3678.962
+  },
+  {
+    "state":"South Australia",
+    "year":"2013\u201314",
+    "value":4254.313
+  },
+  {
+    "state":"South Australia",
+    "year":"2014\u201315",
+    "value":4602.087
+  },
+  {
+    "state":"South Australia",
+    "year":"2015\u201316",
+    "value":3679.342
+  },
+  {
+    "state":"South Australia",
+    "year":"2016\u201317",
+    "value":6132.504
+  },
+  {
+    "state":"South Australia",
+    "year":"2017\u201318",
+    "value":4051.954
+  },
+  {
+    "state":"South Australia",
+    "year":"2018\u201319",
+    "value":3024.524
+  },
+  {
+    "state":"South Australia",
+    "year":"2019\u201320",
+    "value":2689.074
+  },
+  {
+    "state":"South Australia",
+    "year":"2020\u201321",
+    "value":3982.208
+  },
+  {
+    "state":"South Australia",
+    "year":"2021\u201322",
+    "value":4750.113
+  },
+  {
+    "state":"South Australia",
+    "year":"2022\u201323",
+    "value":7350.0
+  },
+  {
+    "state":"South Australia",
+    "year":"2023\u201324",
+    "value":4800.0
+  },
+  {
+    "state":"South Australia",
+    "year":"2024\u201325",
+    "value":2770.0
+  },
+  {
+    "state":"South Australia",
+    "year":"2025\u201326",
+    "value":4740.0
+  },
+  {
+    "state":"Tasmania",
+    "year":"2000\u201301",
+    "value":25.6
+  },
+  {
+    "state":"Tasmania",
+    "year":"2001\u201302",
+    "value":25.3
+  },
+  {
+    "state":"Tasmania",
+    "year":"2002\u201303",
+    "value":25.3
+  },
+  {
+    "state":"Tasmania",
+    "year":"2003\u201304",
+    "value":26.1
+  },
+  {
+    "state":"Tasmania",
+    "year":"2004\u201305",
+    "value":30.5
+  },
+  {
+    "state":"Tasmania",
+    "year":"2005\u201306",
+    "value":34.0
+  },
+  {
+    "state":"Tasmania",
+    "year":"2006\u201307",
+    "value":17.7
+  },
+  {
+    "state":"Tasmania",
+    "year":"2007\u201308",
+    "value":26.8
+  },
+  {
+    "state":"Tasmania",
+    "year":"2008\u201309",
+    "value":34.9
+  },
+  {
+    "state":"Tasmania",
+    "year":"2009\u201310",
+    "value":27.3
+  },
+  {
+    "state":"Tasmania",
+    "year":"2010\u201311",
+    "value":31.9
+  },
+  {
+    "state":"Tasmania",
+    "year":"2011\u201312",
+    "value":32.252
+  },
+  {
+    "state":"Tasmania",
+    "year":"2012\u201313",
+    "value":30.44
+  },
+  {
+    "state":"Tasmania",
+    "year":"2013\u201314",
+    "value":43.484
+  },
+  {
+    "state":"Tasmania",
+    "year":"2014\u201315",
+    "value":44.237
+  },
+  {
+    "state":"Tasmania",
+    "year":"2015\u201316",
+    "value":53.361
+  },
+  {
+    "state":"Tasmania",
+    "year":"2016\u201317",
+    "value":55.78
+  },
+  {
+    "state":"Tasmania",
+    "year":"2017\u201318",
+    "value":40.289
+  },
+  {
+    "state":"Tasmania",
+    "year":"2018\u201319",
+    "value":40.1
+  },
+  {
+    "state":"Tasmania",
+    "year":"2019\u201320",
+    "value":43.805
+  },
+  {
+    "state":"Tasmania",
+    "year":"2020\u201321",
+    "value":56.295
+  },
+  {
+    "state":"Tasmania",
+    "year":"2021\u201322",
+    "value":69.983
+  },
+  {
+    "state":"Tasmania",
+    "year":"2022\u201323",
+    "value":82.5
+  },
+  {
+    "state":"Tasmania",
+    "year":"2023\u201324",
+    "value":85.0
+  },
+  {
+    "state":"Tasmania",
+    "year":"2024\u201325",
+    "value":60.0
+  },
+  {
+    "state":"Tasmania",
+    "year":"2025\u201326",
+    "value":85.0
+  },
+  {
+    "state":"Victoria",
+    "year":"2000\u201301",
+    "value":3079.7
+  },
+  {
+    "state":"Victoria",
+    "year":"2001\u201302",
+    "value":2791.4
+  },
+  {
+    "state":"Victoria",
+    "year":"2002\u201303",
+    "value":890.2
+  },
+  {
+    "state":"Victoria",
+    "year":"2003\u201304",
+    "value":3145.5
+  },
+  {
+    "state":"Victoria",
+    "year":"2004\u201305",
+    "value":1927.1
+  },
+  {
+    "state":"Victoria",
+    "year":"2005\u201306",
+    "value":2908.9
+  },
+  {
+    "state":"Victoria",
+    "year":"2006\u201307",
+    "value":879.3
+  },
+  {
+    "state":"Victoria",
+    "year":"2007\u201308",
+    "value":1995.3
+  },
+  {
+    "state":"Victoria",
+    "year":"2008\u201309",
+    "value":1755.7
+  },
+  {
+    "state":"Victoria",
+    "year":"2009\u201310",
+    "value":2994.9
+  },
+  {
+    "state":"Victoria",
+    "year":"2010\u201311",
+    "value":4412.4
+  },
+  {
+    "state":"Victoria",
+    "year":"2011\u201312",
+    "value":3943.311
+  },
+  {
+    "state":"Victoria",
+    "year":"2012\u201313",
+    "value":3422.865
+  },
+  {
+    "state":"Victoria",
+    "year":"2013\u201314",
+    "value":3395.892
+  },
+  {
+    "state":"Victoria",
+    "year":"2014\u201315",
+    "value":2631.301
+  },
+  {
+    "state":"Victoria",
+    "year":"2015\u201316",
+    "value":1814.868
+  },
+  {
+    "state":"Victoria",
+    "year":"2016\u201317",
+    "value":4664.824
+  },
+  {
+    "state":"Victoria",
+    "year":"2017\u201318",
+    "value":3682.083
+  },
+  {
+    "state":"Victoria",
+    "year":"2018\u201319",
+    "value":2276.598
+  },
+  {
+    "state":"Victoria",
+    "year":"2019\u201320",
+    "value":3714.313
+  },
+  {
+    "state":"Victoria",
+    "year":"2020\u201321",
+    "value":4525.002
+  },
+  {
+    "state":"Victoria",
+    "year":"2021\u201322",
+    "value":4246.433
+  },
+  {
+    "state":"Victoria",
+    "year":"2022\u201323",
+    "value":5392.92
+  },
+  {
+    "state":"Victoria",
+    "year":"2023\u201324",
+    "value":5200.0
+  },
+  {
+    "state":"Victoria",
+    "year":"2024\u201325",
+    "value":3500.0
+  },
+  {
+    "state":"Victoria",
+    "year":"2025\u201326",
+    "value":4250.0
+  },
+  {
+    "state":"Western Australia",
+    "year":"2000\u201301",
+    "value":5814.4
+  },
+  {
+    "state":"Western Australia",
+    "year":"2001\u201302",
+    "value":7759.9
+  },
+  {
+    "state":"Western Australia",
+    "year":"2002\u201303",
+    "value":4046.9
+  },
+  {
+    "state":"Western Australia",
+    "year":"2003\u201304",
+    "value":11070.0
+  },
+  {
+    "state":"Western Australia",
+    "year":"2004\u201305",
+    "value":8618.9
+  },
+  {
+    "state":"Western Australia",
+    "year":"2005\u201306",
+    "value":9088.1
+  },
+  {
+    "state":"Western Australia",
+    "year":"2006\u201307",
+    "value":5134.3
+  },
+  {
+    "state":"Western Australia",
+    "year":"2007\u201308",
+    "value":5820.2
+  },
+  {
+    "state":"Western Australia",
+    "year":"2008\u201309",
+    "value":8274.0
+  },
+  {
+    "state":"Western Australia",
+    "year":"2009\u201310",
+    "value":8114.1
+  },
+  {
+    "state":"Western Australia",
+    "year":"2010\u201311",
+    "value":5004.6
+  },
+  {
+    "state":"Western Australia",
+    "year":"2011\u201312",
+    "value":11045.107
+  },
+  {
+    "state":"Western Australia",
+    "year":"2012\u201313",
+    "value":6744.055
+  },
+  {
+    "state":"Western Australia",
+    "year":"2013\u201314",
+    "value":9976.941
+  },
+  {
+    "state":"Western Australia",
+    "year":"2014\u201315",
+    "value":8824.41
+  },
+  {
+    "state":"Western Australia",
+    "year":"2015\u201316",
+    "value":8510.577
+  },
+  {
+    "state":"Western Australia",
+    "year":"2016\u201317",
+    "value":9644.881
+  },
+  {
+    "state":"Western Australia",
+    "year":"2017\u201318",
+    "value":7698.552
+  },
+  {
+    "state":"Western Australia",
+    "year":"2018\u201319",
+    "value":9979.22
+  },
+  {
+    "state":"Western Australia",
+    "year":"2019\u201320",
+    "value":5842.187
+  },
+  {
+    "state":"Western Australia",
+    "year":"2020\u201321",
+    "value":8792.706
+  },
+  {
+    "state":"Western Australia",
+    "year":"2021\u201322",
+    "value":12919.145
+  },
+  {
+    "state":"Western Australia",
+    "year":"2022\u201323",
+    "value":14500.0
+  },
+  {
+    "state":"Western Australia",
+    "year":"2023\u201324",
+    "value":7700.0
+  },
+  {
+    "state":"Western Australia",
+    "year":"2024\u201325",
+    "value":12650.0
+  },
+  {
+    "state":"Western Australia",
+    "year":"2025\u201326",
+    "value":13400.0
+  }
+]

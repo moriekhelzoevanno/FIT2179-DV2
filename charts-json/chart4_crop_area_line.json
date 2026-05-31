@@ -1,0 +1,106 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 350,
+  "data": {
+    "url": "data/crop_area_trends.json"
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(substring(datum.year,0,4))",
+      "as": "year_num"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "strokeWidth": 2.2,
+    "point": false
+  },
+  "encoding": {
+    "x": {
+      "field": "year_num",
+      "type": "quantitative",
+      "axis": {
+        "title": "Year",
+        "format": "d",
+        "tickCount": 8
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "axis": {
+        "title": "Area planted ('000 ha)"
+      }
+    },
+    "color": {
+      "field": "crop",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Wheat",
+          "Barley",
+          "Canola",
+          "Chickpeas"
+        ],
+        "range": [
+          "#E69F00",
+          "#0072B2",
+          "#009E73",
+          "#CC79A7"
+        ]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "nominal",
+        "title": "Year"
+      },
+      {
+        "field": "crop",
+        "type": "nominal",
+        "title": "Crop"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Area ('000 ha)",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e8e0d4",
+      "gridOpacity": 0.7,
+      "domainColor": "#c8bfb0",
+      "tickColor": "#c8bfb0",
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "title": {
+      "font": "Playfair Display",
+      "fontSize": 14,
+      "color": "#1a2e24"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

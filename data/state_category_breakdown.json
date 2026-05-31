@@ -1,0 +1,157 @@
+[
+  {
+    "state":"Australian Capital Territory",
+    "category":"Broadacre Crops",
+    "gross_value_m":0.03
+  },
+  {
+    "state":"Australian Capital Territory",
+    "category":"Horticulture",
+    "gross_value_m":1.71
+  },
+  {
+    "state":"Australian Capital Territory",
+    "category":"Livestock Products",
+    "gross_value_m":3.23
+  },
+  {
+    "state":"Australian Capital Territory",
+    "category":"Livestock Slaughter",
+    "gross_value_m":8.78
+  },
+  {
+    "state":"New South Wales",
+    "category":"Broadacre Crops",
+    "gross_value_m":10676.07
+  },
+  {
+    "state":"New South Wales",
+    "category":"Horticulture",
+    "gross_value_m":912.03
+  },
+  {
+    "state":"New South Wales",
+    "category":"Livestock Products",
+    "gross_value_m":2104.05
+  },
+  {
+    "state":"New South Wales",
+    "category":"Livestock Slaughter",
+    "gross_value_m":5891.05
+  },
+  {
+    "state":"Northern Territory",
+    "category":"Broadacre Crops",
+    "gross_value_m":31.7
+  },
+  {
+    "state":"Northern Territory",
+    "category":"Horticulture",
+    "gross_value_m":8.7
+  },
+  {
+    "state":"Northern Territory",
+    "category":"Livestock Slaughter",
+    "gross_value_m":487.05
+  },
+  {
+    "state":"Queensland",
+    "category":"Broadacre Crops",
+    "gross_value_m":4252.89
+  },
+  {
+    "state":"Queensland",
+    "category":"Horticulture",
+    "gross_value_m":748.35
+  },
+  {
+    "state":"Queensland",
+    "category":"Livestock Products",
+    "gross_value_m":613.72
+  },
+  {
+    "state":"Queensland",
+    "category":"Livestock Slaughter",
+    "gross_value_m":7939.42
+  },
+  {
+    "state":"South Australia",
+    "category":"Broadacre Crops",
+    "gross_value_m":3081.13
+  },
+  {
+    "state":"South Australia",
+    "category":"Horticulture",
+    "gross_value_m":1187.2
+  },
+  {
+    "state":"South Australia",
+    "category":"Livestock Products",
+    "gross_value_m":775.12
+  },
+  {
+    "state":"South Australia",
+    "category":"Livestock Slaughter",
+    "gross_value_m":1159.46
+  },
+  {
+    "state":"Tasmania",
+    "category":"Broadacre Crops",
+    "gross_value_m":90.99
+  },
+  {
+    "state":"Tasmania",
+    "category":"Horticulture",
+    "gross_value_m":282.39
+  },
+  {
+    "state":"Tasmania",
+    "category":"Livestock Products",
+    "gross_value_m":595.05
+  },
+  {
+    "state":"Tasmania",
+    "category":"Livestock Slaughter",
+    "gross_value_m":525.26
+  },
+  {
+    "state":"Victoria",
+    "category":"Broadacre Crops",
+    "gross_value_m":4032.16
+  },
+  {
+    "state":"Victoria",
+    "category":"Horticulture",
+    "gross_value_m":1417.78
+  },
+  {
+    "state":"Victoria",
+    "category":"Livestock Products",
+    "gross_value_m":4068.19
+  },
+  {
+    "state":"Victoria",
+    "category":"Livestock Slaughter",
+    "gross_value_m":6336.95
+  },
+  {
+    "state":"Western Australia",
+    "category":"Broadacre Crops",
+    "gross_value_m":10407.67
+  },
+  {
+    "state":"Western Australia",
+    "category":"Horticulture",
+    "gross_value_m":334.09
+  },
+  {
+    "state":"Western Australia",
+    "category":"Livestock Products",
+    "gross_value_m":909.46
+  },
+  {
+    "state":"Western Australia",
+    "category":"Livestock Slaughter",
+    "gross_value_m":1726.36
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 310,
+  "data": {
+    "url": "data/ag_exports.json"
+  },
+  "transform": [
+    {
+      "filter": "datum.series !== 'Total'"
+    },
+    {
+      "calculate": "toNumber(substring(datum.year,0,4))",
+      "as": "year_num"
+    }
+  ],
+  "params": [
+    {
+      "name": "exp_sel",
+      "select": {
+        "type": "point",
+        "fields": [
+          "series"
+        ]
+      },
+      "bind": "legend"
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "year_num",
+      "type": "quantitative",
+      "axis": {
+        "title": "Year",
+        "format": "d",
+        "tickCount": 8
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "stack": "zero",
+      "axis": {
+        "title": "Export value ($M)",
+        "format": ",.0f"
+      }
+    },
+    "color": {
+      "field": "series",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Meat",
+          "Grains/Oilseeds/Pulses",
+          "Livestock products",
+          "Dairy",
+          "Horticulture",
+          "Crops",
+          "Wool"
+        ],
+        "range": [
+          "#D55E00",
+          "#E69F00",
+          "#56B4E9",
+          "#009E73",
+          "#CC79A7",
+          "#0072B2",
+          "#F0E442"
+        ]
+      },
+      "legend": {
+        "title": "Category",
+        "orient": "right"
+      }
+    },
+    "opacity": {
+      "condition": {
+        "param": "exp_sel",
+        "value": 0.9
+      },
+      "value": 0.1
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "type": "nominal",
+        "title": "Year"
+      },
+      {
+        "field": "series",
+        "type": "nominal",
+        "title": "Category"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Export value ($M)",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e8e0d4",
+      "gridOpacity": 0.7,
+      "domainColor": "#c8bfb0",
+      "tickColor": "#c8bfb0",
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "title": {
+      "font": "Playfair Display",
+      "fontSize": 14,
+      "color": "#1a2e24"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

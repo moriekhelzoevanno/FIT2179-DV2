@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harvesting Australia — Agricultural &amp; Food Production</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.x/dist/tabler-icons.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="overline">Australian Agriculture &amp; Food Production</p>
+      <h1>Harvesting <em>Australia</em></h1>
+      <p class="subtitle">From the wheat belts of Western Australia to the dairy farms of Victoria, Australian
+        agriculture feeds the nation and helps feed the world — generating over $70 billion in farm-gate value every
+        year.</p>
+      <div class="stats-row">
+        <div class="stat"><span class="stat-num">$71.8B</span><span class="stat-label">Total farm value 2021–22</span>
+        </div>
+        <div class="stat"><span class="stat-num">12.7M ha</span><span class="stat-label">Wheat planted 2021–22</span>
+        </div>
+        <div class="stat"><span class="stat-num">$78.5B</span><span class="stat-label">Agricultural exports
+            2022–23</span></div>
+        <div class="stat"><span class="stat-num">+62%</span><span class="stat-label">Wheat yield improvement since
+            1990s</span></div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="section-nav" aria-label="Page sections">
+    <ul>
+      <li><a href="#landscape"><i class="ti ti-map" aria-hidden="true"></i>01 · The Landscape</a></li>
+      <li><a href="#crops"><i class="ti ti-wheat" aria-hidden="true"></i>02 · Crops &amp; Growth</a></li>
+      <li><a href="#efficiency"><i class="ti ti-trending-up" aria-hidden="true"></i>03 · Yield &amp; Efficiency</a></li>
+      <li><a href="#economics"><i class="ti ti-report-money" aria-hidden="true"></i>04 · Economics</a></li>
+    </ul>
+  </nav>
+
+  <!-- SECTION 1 -->
+  <section class="section" id="landscape">
+    <div class="section-header container">
+      <div class="section-header-text">
+        <div class="section-number">01</div>
+        <h2>The Agricultural Landscape</h2>
+        <p class="section-intro">Australia's farm output is spread unevenly across the continent. New South Wales and
+          Victoria dominate by total value, but each state has its own agricultural identity — shaped by climate, land,
+          and tradition.</p>
+      </div>
+      <i class="ti ti-map section-header-icon" aria-hidden="true"></i>
+    </div>
+    <div class="chart-grid chart-grid-2 container">
+      <!-- Chart 1: Choropleth Map — Total Agricultural Value by State -->
+      <div class="chart-wrap">
+        <h3>Total Agricultural Value by State (2021–22)</h3>
+        <p class="chart-desc">Darker shading indicates higher total farm-gate value. Hover over each state to see its
+          total value and top-producing commodity. New South Wales leads with $19.6B; Queensland's output is dominated
+          by cattle, which account for over half its total farm value.</p>
+        <div id="map" class="vega-chart"></div>
+        <div class="insight">
+          <p class="insight-label">Key insight</p>
+          <p>New South Wales and Victoria together produce <strong>~49%</strong> of Australia's total agricultural
+            output, driven by their diverse mix of grains, livestock, and horticulture.</p>
+        </div>
+      </div>
+      <!-- Chart 2: Horizontal Bar — Top Commodities by National Value -->
+      <div class="chart-wrap">
+        <h3>Top Commodities by National Value (2021–22)</h3>
+        <p class="chart-desc">Cattle &amp; calves lead at $15.3B, followed by wheat at $13.1B. Together, beef and grains
+          account for nearly 40% of all farm output. Each bar is coloured by its broad category — orange for broadacre
+          crops, vermilion for livestock slaughter.</p>
+        <span class="interact-hint">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 8v4m0 4h.01" />
+          </svg>
+          Click a legend category to highlight
+        </span>
+        <div id="commodities-bar" class="vega-chart"></div>
+      </div>
+    </div>
+    <div class="chart-band container">
+      <!-- Chart 3: Normalised Stacked Bar — Production Mix Across States -->
+      <div class="chart-wrap">
+        <h3>Production Mix Across States (2021–22) — Normalised Share</h3>
+        <p class="chart-desc">Each bar sums to 100%, showing each state's production <em>composition</em> rather than
+          its size. Queensland's output is dominated by livestock slaughter (cattle, 59% of its total), while Victoria
+          leads Australia in dairy production — accounting for 62% of national milk output. Western Australia's large
+          share of broadacre crops reflects its vast grain belt.</p>
+        <div id="state-composition" class="vega-chart"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2 -->
+  <section class="section section-alt" id="crops">
+    <div class="section-header container">
+      <div class="section-header-text">
+        <div class="section-number">02</div>
+        <h2>Three Decades of Crop Growth</h2>
+        <p class="section-intro">Australian crop production has expanded and diversified dramatically since 1989. The
+          rise of canola and the resilience of wheat tell the story of a sector adapting to changing global demand — and
+          surviving punishing droughts.</p>
+      </div>
+      <i class="ti ti-wheat section-header-icon" aria-hidden="true"></i>
+    </div>
+    <div class="pull-quote container">"Australian farmers now plant more canola than at any time in history — a crop
+      that was barely grown here 35 years ago."</div>
+    <div class="chart-grid chart-grid-2 container">
+      <!-- Chart 4: Multi-line — Area Planted to Key Crops -->
+      <div class="chart-wrap">
+        <h3>Area Planted to Key Crops (Australia, 1989–2026)</h3>
+        <p class="chart-desc">Wheat dominates by area, though it fluctuates sharply with drought and prices. Canola has
+          risen steadily to become Australia's second-largest crop by area — a remarkable transformation over just 35
+          years. Hover for exact values.</p>
+        <div id="crop-area-line" class="vega-chart"></div>
+        <div class="legend-row">
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#E69F00"></div>Wheat
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#0072B2"></div>Barley
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#009E73"></div>Canola
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#CC79A7"></div>Chickpeas
+          </div>
+        </div>
+      </div>
+      <!-- Chart 5: Heatmap — Wheat Production by State -->
+      <div class="chart-wrap">
+        <h3>Wheat Production by State (kt, 2000–2026)</h3>
+        <p class="chart-desc">Western Australia is Australia's wheat powerhouse. Severe drought years (2002–03, 2006–07)
+          appear as pale horizontal bands across all states simultaneously — showing how widespread drought impacts are.
+          Darker blue cells indicate bumper harvests.</p>
+        <span class="interact-hint">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 8v4m0 4h.01" />
+          </svg>
+          Hover a state row to highlight it across all years
+        </span>
+        <div id="wheat-heatmap" class="vega-chart"></div>
+        <div class="insight">
+          <p class="insight-label">Drought impact</p>
+          <p>In <strong>2002–03</strong>, total wheat production fell to just 10.1 Mt — less than half the long-run
+            average — as drought gripped eastern Australia simultaneously. The pale row spans every state.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3 -->
+  <section class="section" id="efficiency">
+    <div class="section-header container">
+      <div class="section-header-text">
+        <div class="section-number">03</div>
+        <h2>Getting More From Every Hectare</h2>
+        <p class="section-intro">Australian farmers are producing significantly more food from the same land. Advances
+          in crop varieties, precision agriculture, and better water management have driven yields upward across all
+          states — even through drought years.</p>
+      </div>
+      <i class="ti ti-trending-up section-header-icon" aria-hidden="true"></i>
+    </div>
+    <div class="chart-grid chart-grid-2 container">
+
+      <!-- Chart 6: Dumbbell — Wheat Yield 1990s vs 2020s -->
+      <div class="chart-wrap">
+        <h3>Wheat Yield: 1990s vs 2020s Average (t/ha)</h3>
+        <p class="chart-desc">
+          Every state improved its average wheat yield. Tasmania — with its cooler,
+          wetter climate — achieved the largest absolute gain, reaching 6.7 t/ha.
+          Values are labelled directly on the chart.
+        </p>
+        <div id="yield-dumbbell" class="vega-chart"></div>
+        <div class="legend-row">
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#E69F00"></div>1990s average
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#0072B2"></div>2020s average
+          </div>
+        </div>
+      </div>
+
+      <!-- Chart 7: Annotated Line — Wheat Yield Over Time -->
+      <div class="chart-wrap">
+        <h3>Wheat Yield Over Time (Australia, t/ha)</h3>
+        <p class="chart-desc">Despite year-to-year volatility driven by drought, the long-term trend in wheat yield is
+          clearly upward — from around 1.6 t/ha in 1990 to over 2.8 t/ha by 2021–22. Two major drought episodes are
+          marked.</p>
+        <div id="yield-line" class="vega-chart"></div>
+      </div>
+    </div>
+
+    <div class="chart-band container">
+      <!-- Chart 8: Bubble Scatter — Wheat Yield vs Year -->
+      <div class="chart-wrap">
+        <h3>Wheat: Yield vs Year, Bubble Size = Area Planted (1990–2025)</h3>
+        <p class="chart-desc">Each bubble is one growing season. <strong style="color:#D55E00">Orange</strong> bubbles
+          mark drought years (yield &lt; 1.6 t/ha); <strong style="color:#56B4E9">blue</strong> bubbles are good
+          seasons. Bubble size shows how much land was planted. The dashed trend line confirms steady yield improvement
+          regardless of area planted — demonstrating it is <em>efficiency</em>, not just more land, driving output
+          growth.</p>
+        <div class="filter-btn-group">
+          <span class="filter-label">Show:</span>
+          <button class="filter-btn active" data-season="All">All seasons</button>
+          <button class="filter-btn" data-season="Good season">Good seasons</button>
+          <button class="filter-btn" data-season="Drought year">Drought years</button>
+        </div>
+        <div id="wheat-bubble" class="vega-chart"></div>
+        <div class="insight">
+          <p class="insight-label">Efficiency insight</p>
+          <p>Some recent seasons planted <em>less land</em> than the mid-2000s yet achieved <strong>double the yield per
+              hectare</strong>. Precision agriculture and improved varieties are the real driver — not simply planting
+            more ground.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4 -->
+  <section class="section section-alt" id="economics">
+    <div class="section-header container">
+      <div class="section-header-text">
+        <div class="section-number">04</div>
+        <h2>The Economics of Australian Farming</h2>
+        <p class="section-intro">Agriculture is not just about what is grown — it is about whether farmers can make a
+          living and whether Australia can compete on the world stage. The past 30 years have seen strong growth in both
+          farm income and exports.</p>
+      </div>
+      <i class="ti ti-report-money section-header-icon" aria-hidden="true"></i>
+    </div>
+    <div class="chart-grid chart-grid-2 container">
+      <!-- Chart 9: Multi-line — Farmers' Terms of Trade -->
+      <div class="chart-wrap">
+        <h3>Farmers' Terms of Trade (Index, 2025–26 = 100)</h3>
+        <p class="chart-desc">The terms of trade measures what farmers earn (prices received) relative to what they pay
+          (input costs). A rising index means farming is becoming more profitable. After decades of decline, the index
+          recovered — rising from 2015 to a peak around 2020–21 as global demand surged. It has since eased back toward
+          the base level as input costs rose, with forecasts showing continued softening.</p>
+        <div id="terms-of-trade" class="vega-chart"></div>
+        <div class="legend-row">
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#0072B2"></div>Terms of trade
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#E69F00"></div>Prices received
+          </div>
+          <div class="legend-item">
+            <div class="legend-dot" style="background:#D55E00"></div>Prices paid
+          </div>
+        </div>
+      </div>
+      <!-- Chart 10: Multi-line — Gross Value of Farm Production -->
+      <div class="chart-wrap">
+        <h3>Gross Value of Farm Production ($M, 1994–2027)</h3>
+        <p class="chart-desc">Total farm production value has grown from $24B in 1994–95 to over $88B in 2021–22. Crops
+          (orange) have consistently exceeded meat &amp; slaughter (vermilion) throughout — with the gap widening
+          sharply after 2020 as record grain harvests drove strong growth. The dashed line shows the overall total.</p>
+        <div id="gvp-chart" class="vega-chart"></div>
+      </div>
+    </div>
+    <div class="chart-band container">
+      <!-- Chart 11: Stacked Area — Agricultural Exports by Category -->
+      <div class="chart-wrap">
+        <h3>Australian Agricultural Exports by Category ($M, 1994–2027)</h3>
+        <p class="chart-desc">Agricultural exports have grown from under $20B in 1994–95 to over $78B in 2022–23. Meat
+          (vermilion) consistently dominates, while grains/oilseeds/pulses (orange) have surged recently. Dairy (green),
+          horticulture (purple), and wool (yellow) each contribute a smaller but steady share.</p>
+        <span class="interact-hint">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M12 8v4m0 4h.01" />
+          </svg>
+          Click a legend category to isolate it
+        </span>
+        <div id="exports-chart" class="vega-chart"></div>
+        <div class="insight">
+          <p class="insight-label">Global reach</p>
+          <p>Australia exports the equivalent of <strong>~70% of what it produces</strong> on farm, making it one of the
+            world's most trade-exposed agricultural nations. Asia is the dominant destination — particularly for beef,
+            wheat, and wool.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p><strong>Data sources</strong></p>
+      <p>Australian Bureau of Statistics — <em>Value of Agricultural Commodities Produced, Australia, 2021–22</em> · <a
+          href="https://www.abs.gov.au" target="_blank" rel="noopener">abs.gov.au</a></p>
+      <p>ABARES — <em>Australian Crop Report, March 2026 (v1.0.0)</em> · <a href="https://www.agriculture.gov.au"
+          target="_blank" rel="noopener">agriculture.gov.au</a></p>
+      <p>ABARES — <em>Agricultural Commodities Statistics, March 2026 (v1.1.0)</em> · <a
+          href="https://www.agriculture.gov.au" target="_blank" rel="noopener">agriculture.gov.au</a></p>
+      <p style="margin-top: 28px;"><strong>Author :</strong> Moriekhel Hendrawan</p>
+      <p>FIT2179 Data Visualisation II, Monash University, May 2026</p>
+      <p><em>AI tools (Claude, Anthropic) were used to assist with data preparation, styling, proofreading, improving narrative, and chart
+          scaffolding. All visualisations, narrative text, and layout/design decisions are the author's own work.</em></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

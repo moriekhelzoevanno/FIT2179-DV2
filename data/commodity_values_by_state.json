@@ -1,0 +1,1108 @@
+[
+  {
+    "state":"Australia",
+    "commodity":"Wheat",
+    "category":"Broadacre Crops",
+    "gross_value_m":13144.05,
+    "local_value_m":12250.44
+  },
+  {
+    "state":"Australia",
+    "commodity":"Oats",
+    "category":"Broadacre Crops",
+    "gross_value_m":518.94,
+    "local_value_m":479.62
+  },
+  {
+    "state":"Australia",
+    "commodity":"Barley",
+    "category":"Broadacre Crops",
+    "gross_value_m":4357.57,
+    "local_value_m":4046.74
+  },
+  {
+    "state":"Australia",
+    "commodity":"Sorghum",
+    "category":"Broadacre Crops",
+    "gross_value_m":1015.16,
+    "local_value_m":929.88
+  },
+  {
+    "state":"Australia",
+    "commodity":"Rice",
+    "category":"Broadacre Crops",
+    "gross_value_m":275.07,
+    "local_value_m":236.4
+  },
+  {
+    "state":"Australia",
+    "commodity":"Cotton",
+    "category":"Broadacre Crops",
+    "gross_value_m":4193.62,
+    "local_value_m":4059.15
+  },
+  {
+    "state":"Australia",
+    "commodity":"Canola",
+    "category":"Broadacre Crops",
+    "gross_value_m":6001.88,
+    "local_value_m":5837.25
+  },
+  {
+    "state":"Australia",
+    "commodity":"Sugar cane",
+    "category":"Broadacre Crops",
+    "gross_value_m":1377.09,
+    "local_value_m":1327.65
+  },
+  {
+    "state":"Australia",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":1689.25,
+    "local_value_m":1689.25
+  },
+  {
+    "state":"Australia",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":782.58,
+    "local_value_m":704.33
+  },
+  {
+    "state":"Australia",
+    "commodity":"Oranges",
+    "category":"Horticulture",
+    "gross_value_m":583.22,
+    "local_value_m":488.67
+  },
+  {
+    "state":"Australia",
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":645.75,
+    "local_value_m":546.55
+  },
+  {
+    "state":"Australia",
+    "commodity":"Bananas",
+    "category":"Horticulture",
+    "gross_value_m":536.17,
+    "local_value_m":477.26
+  },
+  {
+    "state":"Australia",
+    "commodity":"Almonds",
+    "category":"Horticulture",
+    "gross_value_m":792.72,
+    "local_value_m":787.2
+  },
+  {
+    "state":"Australia",
+    "commodity":"Wine grapes",
+    "category":"Horticulture",
+    "gross_value_m":852.56,
+    "local_value_m":852.56
+  },
+  {
+    "state":"Australia",
+    "commodity":"Potatoes",
+    "category":"Horticulture",
+    "gross_value_m":699.3,
+    "local_value_m":646.28
+  },
+  {
+    "state":"Australia",
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":3229.58,
+    "local_value_m":3081.76
+  },
+  {
+    "state":"Australia",
+    "commodity":"Milk",
+    "category":"Livestock Products",
+    "gross_value_m":4871.89,
+    "local_value_m":4871.89
+  },
+  {
+    "state":"Australia",
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":967.35,
+    "local_value_m":890.44
+  },
+  {
+    "state":"Australia",
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":4930.18,
+    "local_value_m":4529.93
+  },
+  {
+    "state":"Australia",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":15321.41,
+    "local_value_m":14208.74
+  },
+  {
+    "state":"Australia",
+    "commodity":"Pigs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":1565.19,
+    "local_value_m":1429.25
+  },
+  {
+    "state":"Australia",
+    "commodity":"Poultry",
+    "category":"Livestock Slaughter",
+    "gross_value_m":3178.37,
+    "local_value_m":3134.83
+  },
+  {
+    "state":"Australia",
+    "commodity":"Other livestock",
+    "category":"Livestock Slaughter",
+    "gross_value_m":276.89,
+    "local_value_m":264.46
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Wheat",
+    "category":"Broadacre Crops",
+    "gross_value_m":3888.16,
+    "local_value_m":3535.47
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Oats",
+    "category":"Broadacre Crops",
+    "gross_value_m":105.81,
+    "local_value_m":95.71
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Barley",
+    "category":"Broadacre Crops",
+    "gross_value_m":964.9,
+    "local_value_m":875.36
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Sorghum",
+    "category":"Broadacre Crops",
+    "gross_value_m":356.68,
+    "local_value_m":329.54
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Rice",
+    "category":"Broadacre Crops",
+    "gross_value_m":272.69,
+    "local_value_m":234.36
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Cotton",
+    "category":"Broadacre Crops",
+    "gross_value_m":2982.51,
+    "local_value_m":2884.3
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Canola",
+    "category":"Broadacre Crops",
+    "gross_value_m":1773.19,
+    "local_value_m":1711.24
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Sugar cane",
+    "category":"Broadacre Crops",
+    "gross_value_m":70.51,
+    "local_value_m":58.09
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":261.62,
+    "local_value_m":261.62
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":236.92,
+    "local_value_m":213.23
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Oranges",
+    "category":"Horticulture",
+    "gross_value_m":274.24,
+    "local_value_m":227.81
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":54.44,
+    "local_value_m":45.81
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Bananas",
+    "category":"Horticulture",
+    "gross_value_m":5.11,
+    "local_value_m":4.55
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Almonds",
+    "category":"Horticulture",
+    "gross_value_m":176.89,
+    "local_value_m":176.73
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Wine grapes",
+    "category":"Horticulture",
+    "gross_value_m":139.35,
+    "local_value_m":139.35
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Potatoes",
+    "category":"Horticulture",
+    "gross_value_m":25.08,
+    "local_value_m":23.66
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":1102.86,
+    "local_value_m":1049.02
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Milk",
+    "category":"Livestock Products",
+    "gross_value_m":686.88,
+    "local_value_m":686.88
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":314.31,
+    "local_value_m":288.03
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":1484.79,
+    "local_value_m":1366.89
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":3332.7,
+    "local_value_m":3098.11
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Pigs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":229.6,
+    "local_value_m":209.67
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Poultry",
+    "category":"Livestock Slaughter",
+    "gross_value_m":836.24,
+    "local_value_m":821.63
+  },
+  {
+    "state":"New South Wales",
+    "commodity":"Other livestock",
+    "category":"Livestock Slaughter",
+    "gross_value_m":7.72,
+    "local_value_m":7.56
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Wheat",
+    "category":"Broadacre Crops",
+    "gross_value_m":1641.19,
+    "local_value_m":1530.84
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Oats",
+    "category":"Broadacre Crops",
+    "gross_value_m":69.84,
+    "local_value_m":63.61
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Barley",
+    "category":"Broadacre Crops",
+    "gross_value_m":671.33,
+    "local_value_m":612.75
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Sorghum",
+    "category":"Broadacre Crops",
+    "gross_value_m":0.79,
+    "local_value_m":0.73
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Rice",
+    "category":"Broadacre Crops",
+    "gross_value_m":0.67,
+    "local_value_m":0.58
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Canola",
+    "category":"Broadacre Crops",
+    "gross_value_m":1132.89,
+    "local_value_m":1098.28
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":515.45,
+    "local_value_m":515.45
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":324.26,
+    "local_value_m":291.84
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Oranges",
+    "category":"Horticulture",
+    "gross_value_m":66.89,
+    "local_value_m":56.52
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":316.05,
+    "local_value_m":268.73
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Almonds",
+    "category":"Horticulture",
+    "gross_value_m":446.1,
+    "local_value_m":441.64
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Wine grapes",
+    "category":"Horticulture",
+    "gross_value_m":126.55,
+    "local_value_m":126.55
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Potatoes",
+    "category":"Horticulture",
+    "gross_value_m":137.93,
+    "local_value_m":130.34
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":874.4,
+    "local_value_m":840.16
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Milk",
+    "category":"Livestock Products",
+    "gross_value_m":3018.89,
+    "local_value_m":3018.89
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":174.9,
+    "local_value_m":159.93
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":2157.65,
+    "local_value_m":1976.66
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":2935.16,
+    "local_value_m":2724.37
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Pigs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":333.77,
+    "local_value_m":304.64
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Poultry",
+    "category":"Livestock Slaughter",
+    "gross_value_m":782.32,
+    "local_value_m":773.06
+  },
+  {
+    "state":"Victoria",
+    "commodity":"Other livestock",
+    "category":"Livestock Slaughter",
+    "gross_value_m":128.05,
+    "local_value_m":123.8
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Wheat",
+    "category":"Broadacre Crops",
+    "gross_value_m":776.1,
+    "local_value_m":701.4
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Oats",
+    "category":"Broadacre Crops",
+    "gross_value_m":20.54,
+    "local_value_m":18.28
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Barley",
+    "category":"Broadacre Crops",
+    "gross_value_m":174.12,
+    "local_value_m":156.62
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Sorghum",
+    "category":"Broadacre Crops",
+    "gross_value_m":656.69,
+    "local_value_m":598.68
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Rice",
+    "category":"Broadacre Crops",
+    "gross_value_m":1.32,
+    "local_value_m":1.12
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Cotton",
+    "category":"Broadacre Crops",
+    "gross_value_m":1190.76,
+    "local_value_m":1155.14
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Canola",
+    "category":"Broadacre Crops",
+    "gross_value_m":4.51,
+    "local_value_m":4.35
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Sugar cane",
+    "category":"Broadacre Crops",
+    "gross_value_m":1306.58,
+    "local_value_m":1269.56
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":122.27,
+    "local_value_m":122.27
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":92.18,
+    "local_value_m":82.96
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Oranges",
+    "category":"Horticulture",
+    "gross_value_m":5.62,
+    "local_value_m":4.63
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":38.12,
+    "local_value_m":32.05
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Bananas",
+    "category":"Horticulture",
+    "gross_value_m":514.85,
+    "local_value_m":458.17
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Wine grapes",
+    "category":"Horticulture",
+    "gross_value_m":0.5,
+    "local_value_m":0.5
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Potatoes",
+    "category":"Horticulture",
+    "gross_value_m":97.08,
+    "local_value_m":87.44
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":76.46,
+    "local_value_m":72.31
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Milk",
+    "category":"Livestock Products",
+    "gross_value_m":209.35,
+    "local_value_m":209.35
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":327.91,
+    "local_value_m":303.87
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":19.0,
+    "local_value_m":17.23
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":6825.59,
+    "local_value_m":6341.35
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Pigs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":388.65,
+    "local_value_m":353.86
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Poultry",
+    "category":"Livestock Slaughter",
+    "gross_value_m":630.7,
+    "local_value_m":622.45
+  },
+  {
+    "state":"Queensland",
+    "commodity":"Other livestock",
+    "category":"Livestock Slaughter",
+    "gross_value_m":75.48,
+    "local_value_m":71.87
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Wheat",
+    "category":"Broadacre Crops",
+    "gross_value_m":1709.76,
+    "local_value_m":1628.53
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Oats",
+    "category":"Broadacre Crops",
+    "gross_value_m":42.29,
+    "local_value_m":39.71
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Barley",
+    "category":"Broadacre Crops",
+    "gross_value_m":642.17,
+    "local_value_m":607.49
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Canola",
+    "category":"Broadacre Crops",
+    "gross_value_m":386.0,
+    "local_value_m":378.3
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":300.91,
+    "local_value_m":300.91
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":42.42,
+    "local_value_m":38.18
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Oranges",
+    "category":"Horticulture",
+    "gross_value_m":213.93,
+    "local_value_m":181.21
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":105.17,
+    "local_value_m":89.73
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Almonds",
+    "category":"Horticulture",
+    "gross_value_m":164.61,
+    "local_value_m":164.23
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Wine grapes",
+    "category":"Horticulture",
+    "gross_value_m":467.81,
+    "local_value_m":467.81
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Potatoes",
+    "category":"Horticulture",
+    "gross_value_m":193.26,
+    "local_value_m":173.1
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":444.56,
+    "local_value_m":421.16
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Milk",
+    "category":"Livestock Products",
+    "gross_value_m":263.17,
+    "local_value_m":263.17
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":67.39,
+    "local_value_m":62.19
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":514.55,
+    "local_value_m":473.65
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":272.01,
+    "local_value_m":252.78
+  },
+  {
+    "state":"South Australia",
+    "commodity":"Pigs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":372.9,
+    "local_value_m":341.34
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Wheat",
+    "category":"Broadacre Crops",
+    "gross_value_m":5105.63,
+    "local_value_m":4832.21
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Oats",
+    "category":"Broadacre Crops",
+    "gross_value_m":278.49,
+    "local_value_m":260.46
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Barley",
+    "category":"Broadacre Crops",
+    "gross_value_m":1897.71,
+    "local_value_m":1787.49
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Sorghum",
+    "category":"Broadacre Crops",
+    "gross_value_m":1.0,
+    "local_value_m":0.93
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Cotton",
+    "category":"Broadacre Crops",
+    "gross_value_m":3.18,
+    "local_value_m":3.05
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Canola",
+    "category":"Broadacre Crops",
+    "gross_value_m":2696.28,
+    "local_value_m":2636.24
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":425.38,
+    "local_value_m":425.38
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":42.74,
+    "local_value_m":38.47
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Oranges",
+    "category":"Horticulture",
+    "gross_value_m":22.54,
+    "local_value_m":18.5
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":82.94,
+    "local_value_m":69.72
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Bananas",
+    "category":"Horticulture",
+    "gross_value_m":10.72,
+    "local_value_m":9.65
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Almonds",
+    "category":"Horticulture",
+    "gross_value_m":5.12,
+    "local_value_m":4.61
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Wine grapes",
+    "category":"Horticulture",
+    "gross_value_m":75.22,
+    "local_value_m":75.22
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Potatoes",
+    "category":"Horticulture",
+    "gross_value_m":94.81,
+    "local_value_m":84.24
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":654.87,
+    "local_value_m":625.49
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Milk",
+    "category":"Livestock Products",
+    "gross_value_m":187.83,
+    "local_value_m":187.83
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":66.76,
+    "local_value_m":61.42
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":692.26,
+    "local_value_m":638.94
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":1029.22,
+    "local_value_m":944.52
+  },
+  {
+    "state":"Western Australia",
+    "commodity":"Other livestock",
+    "category":"Livestock Slaughter",
+    "gross_value_m":4.88,
+    "local_value_m":4.68
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Wheat",
+    "category":"Broadacre Crops",
+    "gross_value_m":23.21,
+    "local_value_m":21.99
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Oats",
+    "category":"Broadacre Crops",
+    "gross_value_m":1.96,
+    "local_value_m":1.85
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Barley",
+    "category":"Broadacre Crops",
+    "gross_value_m":7.35,
+    "local_value_m":7.03
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Canola",
+    "category":"Broadacre Crops",
+    "gross_value_m":9.01,
+    "local_value_m":8.83
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":49.46,
+    "local_value_m":49.46
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":39.17,
+    "local_value_m":35.26
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":48.97,
+    "local_value_m":40.46
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Wine grapes",
+    "category":"Horticulture",
+    "gross_value_m":43.12,
+    "local_value_m":43.12
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Potatoes",
+    "category":"Horticulture",
+    "gross_value_m":151.13,
+    "local_value_m":147.51
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":73.54,
+    "local_value_m":70.81
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Milk",
+    "category":"Livestock Products",
+    "gross_value_m":505.77,
+    "local_value_m":505.77
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":15.74,
+    "local_value_m":14.68
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":58.04,
+    "local_value_m":52.97
+  },
+  {
+    "state":"Tasmania",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":467.22,
+    "local_value_m":432.55
+  },
+  {
+    "state":"Northern Territory",
+    "commodity":"Rice",
+    "category":"Broadacre Crops",
+    "gross_value_m":0.4,
+    "local_value_m":0.34
+  },
+  {
+    "state":"Northern Territory",
+    "commodity":"Cotton",
+    "category":"Broadacre Crops",
+    "gross_value_m":17.17,
+    "local_value_m":16.66
+  },
+  {
+    "state":"Northern Territory",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":14.13,
+    "local_value_m":14.13
+  },
+  {
+    "state":"Northern Territory",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":3.21,
+    "local_value_m":2.89
+  },
+  {
+    "state":"Northern Territory",
+    "commodity":"Bananas",
+    "category":"Horticulture",
+    "gross_value_m":5.49,
+    "local_value_m":4.88
+  },
+  {
+    "state":"Northern Territory",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":455.77,
+    "local_value_m":411.58
+  },
+  {
+    "state":"Northern Territory",
+    "commodity":"Other livestock",
+    "category":"Livestock Slaughter",
+    "gross_value_m":31.28,
+    "local_value_m":28.15
+  },
+  {
+    "state":"Australian Capital Territory",
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":0.03,
+    "local_value_m":0.03
+  },
+  {
+    "state":"Australian Capital Territory",
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":1.66,
+    "local_value_m":1.49
+  },
+  {
+    "state":"Australian Capital Territory",
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":0.05,
+    "local_value_m":0.04
+  },
+  {
+    "state":"Australian Capital Territory",
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":2.89,
+    "local_value_m":2.82
+  },
+  {
+    "state":"Australian Capital Territory",
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":0.34,
+    "local_value_m":0.32
+  },
+  {
+    "state":"Australian Capital Territory",
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":3.89,
+    "local_value_m":3.58
+  },
+  {
+    "state":"Australian Capital Territory",
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":3.74,
+    "local_value_m":3.47
+  },
+  {
+    "state":"Australian Capital Territory",
+    "commodity":"Poultry",
+    "category":"Livestock Slaughter",
+    "gross_value_m":1.15,
+    "local_value_m":1.13
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 210,
+  "data": {
+    "url": "data/state_category_breakdown.json"
+  },
+  "transform": [
+    {
+      "filter": "datum.state !== 'Australia' && datum.state !== 'Australian Capital Territory'"
+    }
+  ],
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "state",
+      "type": "nominal",
+      "sort": "-y",
+      "axis": {
+        "title": null,
+        "labelAngle": -28
+      }
+    },
+    "y": {
+      "field": "gross_value_m",
+      "type": "quantitative",
+      "stack": "normalize",
+      "axis": {
+        "title": "Share of production",
+        "format": ".0%"
+      }
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Broadacre Crops",
+          "Horticulture",
+          "Livestock Products",
+          "Livestock Slaughter"
+        ],
+        "range": [
+          "#E69F00",
+          "#009E73",
+          "#56B4E9",
+          "#D55E00"
+        ]
+      },
+      "legend": {
+        "title": "",
+        "orient": "bottom",
+        "columns": 4,
+        "columnPadding": 200
+      }
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal",
+        "title": "State"
+      },
+      {
+        "field": "category",
+        "type": "nominal",
+        "title": "Category"
+      },
+      {
+        "field": "gross_value_m",
+        "type": "quantitative",
+        "title": "Value ($M)",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e8e0d4",
+      "gridOpacity": 0.7,
+      "domainColor": "#c8bfb0",
+      "tickColor": "#c8bfb0",
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "title": {
+      "font": "Playfair Display",
+      "fontSize": 14,
+      "color": "#1a2e24"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

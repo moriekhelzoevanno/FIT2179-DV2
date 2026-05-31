@@ -1,0 +1,122 @@
+[
+  {
+    "commodity":"Cattle & calves",
+    "category":"Livestock Slaughter",
+    "gross_value_m":15321.41
+  },
+  {
+    "commodity":"Wheat",
+    "category":"Broadacre Crops",
+    "gross_value_m":13144.05
+  },
+  {
+    "commodity":"Canola",
+    "category":"Broadacre Crops",
+    "gross_value_m":6001.88
+  },
+  {
+    "commodity":"Sheep & lambs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":4930.18
+  },
+  {
+    "commodity":"Milk",
+    "category":"Livestock Products",
+    "gross_value_m":4871.89
+  },
+  {
+    "commodity":"Barley",
+    "category":"Broadacre Crops",
+    "gross_value_m":4357.57
+  },
+  {
+    "commodity":"Cotton",
+    "category":"Broadacre Crops",
+    "gross_value_m":4193.62
+  },
+  {
+    "commodity":"Wool",
+    "category":"Livestock Products",
+    "gross_value_m":3229.58
+  },
+  {
+    "commodity":"Poultry",
+    "category":"Livestock Slaughter",
+    "gross_value_m":3178.37
+  },
+  {
+    "commodity":"Hay",
+    "category":"Broadacre Crops",
+    "gross_value_m":1689.25
+  },
+  {
+    "commodity":"Pigs",
+    "category":"Livestock Slaughter",
+    "gross_value_m":1565.19
+  },
+  {
+    "commodity":"Sugar cane",
+    "category":"Broadacre Crops",
+    "gross_value_m":1377.09
+  },
+  {
+    "commodity":"Sorghum",
+    "category":"Broadacre Crops",
+    "gross_value_m":1015.16
+  },
+  {
+    "commodity":"Eggs",
+    "category":"Livestock Products",
+    "gross_value_m":967.35
+  },
+  {
+    "commodity":"Wine grapes",
+    "category":"Horticulture",
+    "gross_value_m":852.56
+  },
+  {
+    "commodity":"Almonds",
+    "category":"Horticulture",
+    "gross_value_m":792.72
+  },
+  {
+    "commodity":"Nurseries",
+    "category":"Horticulture",
+    "gross_value_m":782.58
+  },
+  {
+    "commodity":"Potatoes",
+    "category":"Horticulture",
+    "gross_value_m":699.3
+  },
+  {
+    "commodity":"Apples",
+    "category":"Horticulture",
+    "gross_value_m":645.75
+  },
+  {
+    "commodity":"Oranges",
+    "category":"Horticulture",
+    "gross_value_m":583.22
+  },
+  {
+    "commodity":"Bananas",
+    "category":"Horticulture",
+    "gross_value_m":536.17
+  },
+  {
+    "commodity":"Oats",
+    "category":"Broadacre Crops",
+    "gross_value_m":518.94
+  },
+  {
+    "commodity":"Other livestock",
+    "category":"Livestock Slaughter",
+    "gross_value_m":276.89
+  },
+  {
+    "commodity":"Rice",
+    "category":"Broadacre Crops",
+    "gross_value_m":275.07
+  }
+]

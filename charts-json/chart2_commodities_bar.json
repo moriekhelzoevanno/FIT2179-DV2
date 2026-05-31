@@ -1,0 +1,127 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 430,
+  "data": {
+    "url": "data/national_commodities.json"
+  },
+  "transform": [
+    {
+      "filter": "datum.gross_value_m > 300"
+    }
+  ],
+  "params": [
+    {
+      "name": "cat_sel",
+      "select": {
+        "type": "point",
+        "fields": [
+          "category"
+        ]
+      },
+      "bind": "legend"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 3
+  },
+  "encoding": {
+    "y": {
+      "field": "commodity",
+      "type": "ordinal",
+      "sort": "-x",
+      "axis": {
+        "labelLimit": 145,
+        "title": null
+      }
+    },
+    "x": {
+      "field": "gross_value_m",
+      "type": "quantitative",
+      "axis": {
+        "title": "Value ($M)",
+        "format": ",.0f"
+      }
+    },
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Broadacre Crops",
+          "Horticulture",
+          "Livestock Products",
+          "Livestock Slaughter"
+        ],
+        "range": [
+          "#E69F00",
+          "#009E73",
+          "#56B4E9",
+          "#D55E00"
+        ]
+      },
+      "legend": {
+        "title": "",
+        "orient": "bottom"
+      }
+    },
+    "opacity": {
+      "condition": {
+        "param": "cat_sel",
+        "value": 1
+      },
+      "value": 0.18
+    },
+    "tooltip": [
+      {
+        "field": "commodity",
+        "type": "nominal",
+        "title": "Commodity"
+      },
+      {
+        "field": "category",
+        "type": "nominal",
+        "title": "Category"
+      },
+      {
+        "field": "gross_value_m",
+        "type": "quantitative",
+        "title": "Gross Value ($M)",
+        "format": ",.1f"
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e8e0d4",
+      "gridOpacity": 0.7,
+      "domainColor": "#c8bfb0",
+      "tickColor": "#c8bfb0",
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "title": {
+      "font": "Playfair Display",
+      "fontSize": 14,
+      "color": "#1a2e24"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

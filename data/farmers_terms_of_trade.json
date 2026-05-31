@@ -1,0 +1,497 @@
+[
+  {
+    "series":"Terms of trade",
+    "year":"1994\u201395",
+    "value":135.834
+  },
+  {
+    "series":"Terms of trade",
+    "year":"1995\u201396",
+    "value":130.388
+  },
+  {
+    "series":"Terms of trade",
+    "year":"1996\u201397",
+    "value":125.176
+  },
+  {
+    "series":"Terms of trade",
+    "year":"1997\u201398",
+    "value":122.863
+  },
+  {
+    "series":"Terms of trade",
+    "year":"1998\u201399",
+    "value":116.923
+  },
+  {
+    "series":"Terms of trade",
+    "year":"1999\u201300",
+    "value":115.791
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2000\u201301",
+    "value":120.447
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2001\u201302",
+    "value":138.288
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2002\u201303",
+    "value":125.826
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2003\u201304",
+    "value":122.733
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2004\u201305",
+    "value":118.008
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2005\u201306",
+    "value":112.856
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2006\u201307",
+    "value":109.156
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2007\u201308",
+    "value":114.026
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2008\u201309",
+    "value":99.352
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2009\u201310",
+    "value":100.242
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2010\u201311",
+    "value":111.385
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2011\u201312",
+    "value":103.532
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2012\u201313",
+    "value":102.405
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2013\u201314",
+    "value":100.644
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2014\u201315",
+    "value":100.963
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2015\u201316",
+    "value":108.923
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2016\u201317",
+    "value":111.121
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2017\u201318",
+    "value":110.542
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2018\u201319",
+    "value":102.684
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2019\u201320",
+    "value":114.558
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2020\u201321",
+    "value":116.298
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2021\u201322",
+    "value":111.736
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2022\u201323",
+    "value":107.714
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2023\u201324",
+    "value":99.483
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2024\u201325",
+    "value":100.493
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2025\u201326",
+    "value":100.0
+  },
+  {
+    "series":"Terms of trade",
+    "year":"2026\u201327",
+    "value":96.121
+  },
+  {
+    "series":"Prices received",
+    "year":"1994\u201395",
+    "value":47.969
+  },
+  {
+    "series":"Prices received",
+    "year":"1995\u201396",
+    "value":47.302
+  },
+  {
+    "series":"Prices received",
+    "year":"1996\u201397",
+    "value":44.702
+  },
+  {
+    "series":"Prices received",
+    "year":"1997\u201398",
+    "value":44.96
+  },
+  {
+    "series":"Prices received",
+    "year":"1998\u201399",
+    "value":42.822
+  },
+  {
+    "series":"Prices received",
+    "year":"1999\u201300",
+    "value":43.27
+  },
+  {
+    "series":"Prices received",
+    "year":"2000\u201301",
+    "value":48.473
+  },
+  {
+    "series":"Prices received",
+    "year":"2001\u201302",
+    "value":54.614
+  },
+  {
+    "series":"Prices received",
+    "year":"2002\u201303",
+    "value":55.311
+  },
+  {
+    "series":"Prices received",
+    "year":"2003\u201304",
+    "value":51.835
+  },
+  {
+    "series":"Prices received",
+    "year":"2004\u201305",
+    "value":51.083
+  },
+  {
+    "series":"Prices received",
+    "year":"2005\u201306",
+    "value":52.335
+  },
+  {
+    "series":"Prices received",
+    "year":"2006\u201307",
+    "value":59.238
+  },
+  {
+    "series":"Prices received",
+    "year":"2007\u201308",
+    "value":66.237
+  },
+  {
+    "series":"Prices received",
+    "year":"2008\u201309",
+    "value":60.753
+  },
+  {
+    "series":"Prices received",
+    "year":"2009\u201310",
+    "value":56.444
+  },
+  {
+    "series":"Prices received",
+    "year":"2010\u201311",
+    "value":62.298
+  },
+  {
+    "series":"Prices received",
+    "year":"2011\u201312",
+    "value":60.787
+  },
+  {
+    "series":"Prices received",
+    "year":"2012\u201313",
+    "value":62.796
+  },
+  {
+    "series":"Prices received",
+    "year":"2013\u201314",
+    "value":64.794
+  },
+  {
+    "series":"Prices received",
+    "year":"2014\u201315",
+    "value":69.486
+  },
+  {
+    "series":"Prices received",
+    "year":"2015\u201316",
+    "value":74.224
+  },
+  {
+    "series":"Prices received",
+    "year":"2016\u201317",
+    "value":73.922
+  },
+  {
+    "series":"Prices received",
+    "year":"2017\u201318",
+    "value":75.244
+  },
+  {
+    "series":"Prices received",
+    "year":"2018\u201319",
+    "value":83.568
+  },
+  {
+    "series":"Prices received",
+    "year":"2019\u201320",
+    "value":86.099
+  },
+  {
+    "series":"Prices received",
+    "year":"2020\u201321",
+    "value":84.922
+  },
+  {
+    "series":"Prices received",
+    "year":"2021\u201322",
+    "value":96.842
+  },
+  {
+    "series":"Prices received",
+    "year":"2022\u201323",
+    "value":99.741
+  },
+  {
+    "series":"Prices received",
+    "year":"2023\u201324",
+    "value":92.425
+  },
+  {
+    "series":"Prices received",
+    "year":"2024\u201325",
+    "value":95.468
+  },
+  {
+    "series":"Prices received",
+    "year":"2025\u201326",
+    "value":100.0
+  },
+  {
+    "series":"Prices received",
+    "year":"2026\u201327",
+    "value":97.864
+  },
+  {
+    "series":"Prices paid",
+    "year":"1994\u201395",
+    "value":35.314
+  },
+  {
+    "series":"Prices paid",
+    "year":"1995\u201396",
+    "value":36.278
+  },
+  {
+    "series":"Prices paid",
+    "year":"1996\u201397",
+    "value":35.711
+  },
+  {
+    "series":"Prices paid",
+    "year":"1997\u201398",
+    "value":36.594
+  },
+  {
+    "series":"Prices paid",
+    "year":"1998\u201399",
+    "value":36.624
+  },
+  {
+    "series":"Prices paid",
+    "year":"1999\u201300",
+    "value":37.369
+  },
+  {
+    "series":"Prices paid",
+    "year":"2000\u201301",
+    "value":40.244
+  },
+  {
+    "series":"Prices paid",
+    "year":"2001\u201302",
+    "value":39.493
+  },
+  {
+    "series":"Prices paid",
+    "year":"2002\u201303",
+    "value":43.959
+  },
+  {
+    "series":"Prices paid",
+    "year":"2003\u201304",
+    "value":42.234
+  },
+  {
+    "series":"Prices paid",
+    "year":"2004\u201305",
+    "value":43.287
+  },
+  {
+    "series":"Prices paid",
+    "year":"2005\u201306",
+    "value":46.373
+  },
+  {
+    "series":"Prices paid",
+    "year":"2006\u201307",
+    "value":54.269
+  },
+  {
+    "series":"Prices paid",
+    "year":"2007\u201308",
+    "value":58.089
+  },
+  {
+    "series":"Prices paid",
+    "year":"2008\u201309",
+    "value":61.149
+  },
+  {
+    "series":"Prices paid",
+    "year":"2009\u201310",
+    "value":56.308
+  },
+  {
+    "series":"Prices paid",
+    "year":"2010\u201311",
+    "value":55.93
+  },
+  {
+    "series":"Prices paid",
+    "year":"2011\u201312",
+    "value":58.713
+  },
+  {
+    "series":"Prices paid",
+    "year":"2012\u201313",
+    "value":61.321
+  },
+  {
+    "series":"Prices paid",
+    "year":"2013\u201314",
+    "value":64.38
+  },
+  {
+    "series":"Prices paid",
+    "year":"2014\u201315",
+    "value":68.823
+  },
+  {
+    "series":"Prices paid",
+    "year":"2015\u201316",
+    "value":68.144
+  },
+  {
+    "series":"Prices paid",
+    "year":"2016\u201317",
+    "value":66.524
+  },
+  {
+    "series":"Prices paid",
+    "year":"2017\u201318",
+    "value":68.068
+  },
+  {
+    "series":"Prices paid",
+    "year":"2018\u201319",
+    "value":81.384
+  },
+  {
+    "series":"Prices paid",
+    "year":"2019\u201320",
+    "value":75.157
+  },
+  {
+    "series":"Prices paid",
+    "year":"2020\u201321",
+    "value":73.021
+  },
+  {
+    "series":"Prices paid",
+    "year":"2021\u201322",
+    "value":86.67
+  },
+  {
+    "series":"Prices paid",
+    "year":"2022\u201323",
+    "value":92.598
+  },
+  {
+    "series":"Prices paid",
+    "year":"2023\u201324",
+    "value":92.905
+  },
+  {
+    "series":"Prices paid",
+    "year":"2024\u201325",
+    "value":94.999
+  },
+  {
+    "series":"Prices paid",
+    "year":"2025\u201326",
+    "value":100.0
+  },
+  {
+    "series":"Prices paid",
+    "year":"2026\u201327",
+    "value":101.813
+  }
+]

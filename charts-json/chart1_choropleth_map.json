@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 340,
+  "projection": {
+    "type": "mercator",
+    "scale": 500,
+    "center": [
+      134,
+      -27
+    ],
+    "translate": [
+      210,
+      155
+    ]
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/moriekhelzoevanno/FIT2179-DV2/master/data/Australia%20GeoJSON/australian-states.json",
+    "format": {
+      "type": "json",
+      "property": "features"
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.STATE_NAME",
+      "from": {
+        "data": {
+          "url": "data/state_ag_summary.json"
+        },
+        "key": "state",
+        "fields": [
+          "total_gross_value_m",
+          "top_commodity",
+          "top_commodity_value_m"
+        ]
+      }
+    }
+  ],
+  "mark": {
+    "type": "geoshape",
+    "stroke": "#faf7f2",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "color": {
+      "field": "total_gross_value_m",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "oranges",
+        "domain": [
+          0,
+          20000
+        ]
+      },
+      "legend": {
+        "title": "Value ($M)",
+        "format": ",.0f"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "properties.STATE_NAME",
+        "type": "nominal",
+        "title": "State"
+      },
+      {
+        "field": "total_gross_value_m",
+        "type": "quantitative",
+        "title": "Total Value ($M)",
+        "format": ",.0f"
+      },
+      {
+        "field": "top_commodity",
+        "type": "nominal",
+        "title": "Top Commodity"
+      },
+      {
+        "field": "top_commodity_value_m",
+        "type": "quantitative",
+        "title": "Top Value ($M)",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e8e0d4",
+      "gridOpacity": 0.7,
+      "domainColor": "#c8bfb0",
+      "tickColor": "#c8bfb0",
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "title": {
+      "font": "Playfair Display",
+      "fontSize": 14,
+      "color": "#1a2e24"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

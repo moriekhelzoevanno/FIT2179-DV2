@@ -1,0 +1,151 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 230,
+  "padding": {
+    "top": 5,
+    "right": 5,
+    "bottom": 5,
+    "left": 5
+  },
+  "data": {
+    "url": "data/wheat_production_by_state.json"
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(substring(datum.year,0,4))",
+      "as": "year_num"
+    }
+  ],
+  "params": [
+    {
+      "name": "state_hl",
+      "select": {
+        "type": "point",
+        "on": "mouseover",
+        "fields": [
+          "state"
+        ],
+        "clear": "mouseout"
+      }
+    }
+  ],
+  "mark": {
+    "type": "rect"
+  },
+  "encoding": {
+    "x": {
+      "field": "year_num",
+      "type": "ordinal",
+      "axis": {
+        "title": "Year",
+        "labelAngle": -45,
+        "labelExpr": "datum.value % 4 === 0 ? datum.label : ''"
+      }
+    },
+    "y": {
+      "field": "state",
+      "type": "nominal",
+      "sort": [
+        "Western Australia",
+        "New South Wales",
+        "South Australia",
+        "Victoria",
+        "Queensland",
+        "Tasmania"
+      ],
+      "axis": {
+        "title": null,
+        "labelLimit": 165
+      }
+    },
+    "color": {
+      "field": "value",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "blues",
+        "domain": [
+          0,
+          10000
+        ]
+      },
+      "legend": {
+        "title": "Production (kt)",
+        "format": ",.0f"
+      }
+    },
+    "opacity": {
+      "condition": {
+        "param": "state_hl",
+        "value": 1
+      },
+      "value": 0.25
+    },
+    "stroke": {
+      "condition": {
+        "param": "state_hl",
+        "empty": false,
+        "value": "#1a2e24"
+      },
+      "value": "transparent"
+    },
+    "strokeWidth": {
+      "condition": {
+        "param": "state_hl",
+        "empty": false,
+        "value": 1.5
+      },
+      "value": 0
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal",
+        "title": "State"
+      },
+      {
+        "field": "year",
+        "type": "nominal",
+        "title": "Year"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Production (kt)",
+        "format": ",.0f"
+      }
+    ]
+  },
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e8e0d4",
+      "gridOpacity": 0.7,
+      "domainColor": "#c8bfb0",
+      "tickColor": "#c8bfb0",
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "title": {
+      "font": "Playfair Display",
+      "fontSize": 14,
+      "color": "#1a2e24"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

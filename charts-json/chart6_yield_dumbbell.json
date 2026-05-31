@@ -1,0 +1,213 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 260,
+  "data": {
+    "url": "data/wheat_yield_comparison.json"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 2.5,
+        "color": "#ddd5c4"
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "ordinal",
+          "sort": {
+            "field": "yield_2020s",
+            "order": "descending"
+          },
+          "axis": {
+            "title": null,
+            "labelLimit": 165
+          }
+        },
+        "x": {
+          "field": "yield_1990s",
+          "type": "quantitative",
+          "axis": {
+            "title": "Average wheat yield (t/ha)"
+          }
+        },
+        "x2": {
+          "field": "yield_2020s"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 65,
+        "opacity": 0.9
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "ordinal",
+          "sort": {
+            "field": "yield_2020s",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "yield_1990s",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "#E69F00"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "yield_1990s",
+            "type": "quantitative",
+            "title": "1990s avg (t/ha)",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 115
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "ordinal",
+          "sort": {
+            "field": "yield_2020s",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "yield_2020s",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "#0072B2"
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "yield_2020s",
+            "type": "quantitative",
+            "title": "2020s avg (t/ha)",
+            "format": ".2f"
+          },
+          {
+            "field": "improvement",
+            "type": "quantitative",
+            "title": "Improvement (t/ha)",
+            "format": "+.2f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dx": 9,
+        "align": "left",
+        "fontSize": 9,
+        "fontWeight": "600",
+        "color": "#0072B2"
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "ordinal",
+          "sort": {
+            "field": "yield_2020s",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "yield_2020s",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "yield_2020s",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dx": -9,
+        "align": "right",
+        "fontSize": 9,
+        "fontWeight": "500",
+        "color": "#E69F00",
+        "opacity": 0.9
+      },
+      "encoding": {
+        "y": {
+          "field": "state",
+          "type": "ordinal",
+          "sort": {
+            "field": "yield_2020s",
+            "order": "descending"
+          }
+        },
+        "x": {
+          "field": "yield_1990s",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "yield_1990s",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": null,
+    "font": "DM Sans",
+    "axis": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "gridColor": "#e8e0d4",
+      "gridOpacity": 0.7,
+      "domainColor": "#c8bfb0",
+      "tickColor": "#c8bfb0",
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "legend": {
+      "labelFont": "DM Sans",
+      "titleFont": "DM Sans",
+      "labelFontSize": 12,
+      "titleFontSize": 13,
+      "labelColor": "#6b6a62",
+      "titleColor": "#3a3a35"
+    },
+    "title": {
+      "font": "Playfair Display",
+      "fontSize": 14,
+      "color": "#1a2e24"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

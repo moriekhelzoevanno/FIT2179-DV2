@@ -1,0 +1,38 @@
+[
+  {
+    "state":"New South Wales",
+    "yield_1990s":1.948,
+    "yield_2020s":3.011,
+    "improvement":1.063
+  },
+  {
+    "state":"Queensland",
+    "yield_1990s":1.317,
+    "yield_2020s":2.212,
+    "improvement":0.895
+  },
+  {
+    "state":"South Australia",
+    "yield_1990s":1.636,
+    "yield_2020s":2.306,
+    "improvement":0.67
+  },
+  {
+    "state":"Tasmania",
+    "yield_1990s":3.504,
+    "yield_2020s":6.68,
+    "improvement":3.176
+  },
+  {
+    "state":"Victoria",
+    "yield_1990s":1.968,
+    "yield_2020s":3.056,
+    "improvement":1.088
+  },
+  {
+    "state":"Western Australia",
+    "yield_1990s":1.66,
+    "yield_2020s":2.525,
+    "improvement":0.865
+  }
+]
